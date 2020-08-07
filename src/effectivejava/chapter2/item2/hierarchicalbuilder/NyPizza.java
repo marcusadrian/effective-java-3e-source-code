@@ -18,7 +18,6 @@ public class NyPizza extends Pizza {
             return new NyPizza(this);
         }
 
-        @Override protected Builder self() { return this; }
     }
 
     private NyPizza(Builder builder) {
